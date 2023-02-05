@@ -9,11 +9,11 @@ public class Q1{
         Scanner scan = new Scanner(System.in);
         int num_of_row = scan.nextInt();
         scan.close();
-        
+        // print output
         System.out.println("=====Pattern=====");
 
         for(int i=1;i<=num_of_row;i++){
-            String s = "";
+            String s = " ";
             for(int j=num_of_row;j>i;j--){
                 s += space;
             }
