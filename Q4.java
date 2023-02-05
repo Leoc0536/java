@@ -21,7 +21,9 @@ public class Q4 {
         }
         // print all possibility without repeating, i.e. 2=18 only, there are no 18=2.
         if(map.size()>0){
-            System.out.println(map);
+            for(Integer i:map.keySet()) {
+                System.out.println(i + " + " + map.get(i) + " = " + target);
+            }
         }
         // print if none of the elements in the list match with others
         else{
